@@ -1,0 +1,34 @@
+.container {
+    background-color: rgb(7, 90, 135); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 15px;
+  }
+  
+  .question-container {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff; 
+    border-radius: 5px;
+  }
+  
+  .question-container h4 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question-container p {
+    margin-top: 10px;
+  }
+  
+  .plus-minus-sign {
+    font-size: 20px;
+    margin-left: 5px;
+  }
